@@ -3,7 +3,7 @@ import path from 'path';
 import { zip } from 'zip-a-folder';
 import uglifyjs from 'uglify-js';
 
-const copySpider = ['app', 'xiaoya', 'bilibili', 'kunyu77_open', 'czzy_open', 'czzy2_open', 'czzy3_open', 'duboku2_open', 'subaibai_open', 'ikanbot_open', 'kkys_open', 'duboku_open', 'alist_open', 'nivod_op', 'wogg', 'xiaoya_open'];
+const copySpider = ['app', 'xiaoya', 'bilibili', 'bili_open', 'kunyu77_open', 'czzy_open', 'czzy2_open', 'czzy3_open', 'duboku2_open', 'subaibai_open', 'ikanbot_open', 'kkys_open', 'duboku_open', 'alist_open', 'nivod_op', 'wogg', 'xiaoya_open'];
 
 const root = process.cwd();
 

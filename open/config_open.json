@@ -23,6 +23,15 @@
         "ext": "http://192.168.50.60:4567/ali/token/433ff0529f3e4981b61f434762959679"
       },
       {
+        "key": "bili_open",
+        "name": "B站",
+        "type": 3,
+        "api": "assets://js/bili_open.js",
+        "ext": {
+          "cookie": ""
+        }
+      },
+      {
         "key": "kunyu77",
         "name": "七七",
         "type": 3,
