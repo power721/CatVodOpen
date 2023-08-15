@@ -55,7 +55,7 @@ async function test() {
         ],
     });
 
-    var files = JSON.parse(await spider.dir('/'));
+    let files = JSON.parse(await spider.dir('/'));
     console.log(files);
 
     files = JSON.parse(await spider.dir(files.list[0].path));
@@ -64,7 +64,9 @@ async function test() {
     files = JSON.parse(await spider.dir('/🙋丫仙女/每日更新/电视剧/国产剧/家有姐妹/'));
     console.log(files);
 
-    var fileInfo = JSON.parse(await spider.file('/🙋丫仙女/每日更新/电视剧/国产剧/家有姐妹/01.mp4'));
+    console.log('---------')
+
+    let fileInfo = JSON.parse(await spider.file('/🙋丫仙女/每日更新/电视剧/国产剧/家有姐妹/01.mp4'));
     console.log(fileInfo);
 
 }

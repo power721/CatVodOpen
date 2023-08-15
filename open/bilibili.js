@@ -63,7 +63,7 @@ async function detail(id) {
 }
 
 async function play(flag, id, flags) {
-    const api = url.replace('/bilibili', '/play') + '?bvid=' + id + '&from=open';
+    const api = url.replace('/bilibili', '/play') + '?bvid=' + id + '&from=open&flag=' + flag;
     return await request(api);
 }
 
