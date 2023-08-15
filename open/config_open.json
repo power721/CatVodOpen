@@ -1,0 +1,146 @@
+{
+  "video": {
+    "sites": [
+      {
+        "key": "xiaoya-tvbox",
+        "name": "小雅Tv",
+        "type": 3,
+        "api": "assets://js/xiaoya.js",
+        "ext": "http://192.168.50.60:4567/vod1"
+      },
+      {
+        "key": "bilibili",
+        "name": "BiliBili",
+        "type": 3,
+        "api": "assets://js/bilibili.js",
+        "ext": "http://192.168.50.60:4567/bilibili"
+      },
+      {
+        "key": "wogg",
+        "name": "玩偶",
+        "type": 3,
+        "api": "assets://js/wogg.js",
+        "ext": "http://192.168.50.60:4567/ali/token/433ff0529f3e4981b61f434762959679"
+      },
+      {
+        "key": "kunyu77",
+        "name": "七七",
+        "type": 3,
+        "api": "assets://js/kunyu77_open.js"
+      },
+      {
+        "key": "ikanbot",
+        "name": "爱看",
+        "type": 3,
+        "api": "assets://js/ikanbot_open.js"
+      },
+      {
+        "key": "czzy",
+        "name": "厂长①",
+        "type": 3,
+        "api": "assets://js/czzy_open.js"
+      },
+       {
+        "key": "czzy2",
+        "name": "厂长②",
+        "type": 3,
+        "api": "assets://js/czzy2_open.js"
+      },
+         {
+        "key": "czzy3",
+        "name": "厂长③",
+        "type": 3,
+        "api": "assets://js/czzy3_open.js"
+      },
+      {
+        "key": "kkys",
+        "name": "看看",
+        "type": 3,
+        "api": "assets://js/kkys_open.js"
+      },
+      {
+        "key": "duboku",
+        "name": "独播✈",
+        "type": 3,
+        "api": "assets://js/duboku_open.js"
+      },
+      {
+        "key": "duboku1",
+        "name": "独播⋘",
+        "type": 3,
+        "api": "assets://js/duboku2_open.js"
+      },
+      {
+          "key": "subaibai",
+          "name": "素白白⋘",
+          "type": 3,
+          "api": "assets://js/subaibai_open.js"
+      },
+      {
+        "key": "nivod",
+        "name": "泥巴✈",
+        "type": 3,
+        "api": "assets://js/nivod_op.js",
+        "ext": "888解忧愁"
+      }
+    ]
+  },
+  "pan": {
+    "sites": [
+      {
+        "key": "alist",
+        "name": "Alist",
+        "type": 40,
+        "api": "assets://js/alist_open.js",
+        "ext": [
+          {
+            "name": "小雅",
+            "server": "http://192.168.50.60:5344",
+            "startPage": "/",
+            "showAll": false,
+            "search": true,
+            "headers": {
+              "Authorization": "alist-4945272b-658f-4be7-a20e-98af1c2be973kAUC1tcZ7EsJi4PyovGRwPVReLto0XxKA4QXfciAR4W4G0XwqWRLr1euFY9W2NnE"
+            },
+            "params": {
+              "/abc": {
+                "password": "123"
+              },
+              "/abc/abc": {
+                "password": "123"
+              }
+            }
+          },
+          {
+            "name": "一只鱼",
+            "server": "https://alist.youte.ml"
+          },
+          {
+            "name": "七米蓝",
+            "server": "https://al.chirmyram.com"
+          },
+          {
+            "name": "神族九帝",
+            "server": "https://alist.shenzjd.com"
+          },
+          {
+            "name": "姬路白雪",
+            "server": "https://pan.jlbx.xyz"
+          },
+          {
+            "name": "星梦",
+            "server": "https://pan.bashroot.top"
+          },
+          {
+            "name": "repl",
+            "server": "https://ali.liucn.repl.co"
+          },
+          {
+            "name": "讯维云盘",
+            "server": "https://pan.xwbeta.com"
+          }
+        ]
+      }
+    ]
+  }
+}
