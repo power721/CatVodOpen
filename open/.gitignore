@@ -2,3 +2,5 @@ node_modules
 dist
 Payload
 *.zip
+my_build.sh
+.idea

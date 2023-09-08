@@ -23,74 +23,135 @@
         "ext": "http://192.168.50.60:4567/ali/token/433ff0529f3e4981b61f434762959679"
       },
       {
-        "key": "bili_open",
-        "name": "B站",
-        "type": 3,
-        "api": "assets://js/bili_open.js",
-        "ext": {
-          "cookie": ""
-        }
-      },
-      {
         "key": "kunyu77",
-        "name": "七七",
+        "name": "🟢 七七",
         "type": 3,
         "api": "assets://js/kunyu77_open.js"
       },
       {
-        "key": "ikanbot",
-        "name": "爱看",
-        "type": 3,
-        "api": "assets://js/ikanbot_open.js"
-      },
-      {
         "key": "czzy",
-        "name": "厂长①",
+        "name": "🟢 厂长",
         "type": 3,
         "api": "assets://js/czzy_open.js"
       },
        {
-        "key": "czzy2",
-        "name": "厂长②",
+        "key": "ngsp",
+        "name": "🟢 南瓜",
         "type": 3,
-        "api": "assets://js/czzy2_open.js"
+        "api": "assets://js/ng_open.js"
       },
-         {
-        "key": "czzy3",
-        "name": "厂长③",
+       {
+        "key": "zxzj",
+        "name": "🟢 在线",
         "type": 3,
-        "api": "assets://js/czzy3_open.js"
+        "api": "assets://js/zxzj_open.js"
+      },
+      {
+        "key": "0809",
+        "name": "🟢 听歌",
+        "type": 3,
+        "api": "assets://js/dj0898_open.js"
+      },
+     {
+        "key": "tuxiaobei",
+        "name": "🟢 小贝",
+        "type": 3,
+        "api": "assets://js/tuxiaobei_open.js"
+      },
+     {
+        "key": "cntv",
+        "name": "🟢 电视",
+        "type": 3,
+        "api": "assets://js/cntv_open.js"
+      },
+     {
+        "key": "ubestkid",
+        "name": "🟢 乐虎",
+        "type": 3,
+        "api": "assets://js/ubestkid_open.js"
+      },
+       {
+        "key": "boosj",
+        "name": "🟢 童趣",
+        "type": 3,
+        "api": "assets://js/boosj_open.js"
+      },
+        {
+        "key": "mybl",
+        "name": "🟢 哔哩",
+        "type": 3,
+        "api": "assets://js/mybili_open.js"
+      },
+       {
+        "key": "ikanbot",
+        "name": "🟢 爱看",
+        "type": 3,
+        "api": "assets://js/ikanbot_open.js"
       },
       {
         "key": "kkys",
-        "name": "看看",
+        "name": "🟢 快看",
         "type": 3,
         "api": "assets://js/kkys_open.js"
       },
+         {
+        "key": "libvio",
+        "name": "🟢 libvio",
+        "type": 3,
+        "api": "assets://js/libvio_open.js"
+      },
+       { 
+        "key": "nivod", 
+        "name": "🟡 泥巴✈", 
+        "type": 3, 
+        "api": "assets://js/nivod_op.js",
+        "ext":"做爱" 
+       },
       {
         "key": "duboku",
-        "name": "独播✈",
+        "name": "🟡 独播✈",
         "type": 3,
         "api": "assets://js/duboku_open.js"
       },
       {
-        "key": "duboku1",
-        "name": "独播⋘",
+        "key": "duboku2",
+        "name": "🟢 独播",
         "type": 3,
         "api": "assets://js/duboku2_open.js"
       },
       {
           "key": "subaibai",
-          "name": "素白白⋘",
+          "name": "🟢 素白",
           "type": 3,
           "api": "assets://js/subaibai_open.js"
       },
       {
-        "key": "nivod",
-        "name": "泥巴✈",
+        "key": "kuqimv",
+        "name": "🟢 酷奇",
         "type": 3,
-        "api": "assets://js/nivod_op.js",
-        "ext": "888解忧愁"
+        "api": "assets://js/kuqimv_open.js"
+      },
+      {
+        "key": "230ts",
+        "name": "🟢 听书",
+        "type": 3,
+        "api": "assets://js/230ts_open.js"
+      }
+    ]
+  },
+  "read": {
+    "sites": [
+      {
+        "key": "bookan",
+        "name": "博看听书",
+        "type": 10,
+        "api": "assets://js/bookan_open.js"
+      },
+      {
+        "key": "230ts",
+        "name": "听书",
+        "type": 10,
+        "api": "assets://js/230ts_open.js"
       }
     ]
   },
